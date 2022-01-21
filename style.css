@@ -9,3 +9,14 @@ ul {
 .iphone {
     height: 400px;
 }
+
+.deer {
+    height: 300px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
