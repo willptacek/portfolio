@@ -2,6 +2,10 @@
     list-style-type: none;
 }
 
+body {
+    background-color: #FAF9F6;
+}
+
 .iphone {
     height: 400px;
 }
