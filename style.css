@@ -6,12 +6,16 @@ body {
     background-color: #FAF9F6;
 }
 
-.iphone {
-    height: 400px;
+.painting-square {
+    height: 300px;
 }
 
-.deer {
-    height: 250px;
+.painting-horizontal {
+    height: 300px;
+}
+
+.painting-vertical {
+    height: 500px;
 }
 
 .flex {
@@ -22,7 +26,21 @@ body {
     text-align: center;
 }
 
-.painting {
-    padding: 1rem;
+#portfolio-item {
+    margin-bottom: 3rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .painting-square {
+        height: 200px;
+    }
+
+    .painting-horizontal {
+        height: 140px;
+    }
+
+    .painting-vertical {
+        height: 300px;
+    }
+  }
 /* todo: refactor all of this lol */
