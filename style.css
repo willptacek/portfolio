@@ -6,11 +6,8 @@ body {
     background-color: #FAF9F6;
 }
 
+.painting-horizontal,
 .painting-square {
-    height: 300px;
-}
-
-.painting-horizontal {
     height: 300px;
 }
 
